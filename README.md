@@ -23,8 +23,9 @@ MAMP est un environnement de développement / Serveur local sur MAC
 - enregistrer le fichier (ctrl O puis return)
 - fermer nano (ctrl X)
 - télécharger composer.phar
-- pour cela saisir dnas le terminal : curl -sS https://getcomposer.org/installer | phpmamp
-- le fichier doit être normalement télécharger dans /Users/votre_nom_user/
+- pour cela saisir dans le terminal : curl -sS https://getcomposer.org/installer | phpmamp
+- la commande ci-dessus utilise la version php de mamp grâce à phpmamp - utilisation de l'alias
+- le fichier doit être normalement téléchargé dans /Users/votre_nom_user/
 - le message suivant doit apparaitre :
 
 All settings correct for using Composer
@@ -37,12 +38,26 @@ Use it: php composer.phar
 
 - pour utiliser 'Composer' globalement sur l'ensemble de votre ordinateur, il faut le déplacer dans le dossier /usr/local/bin/composer
 - créer et déplacer le fichier dans le dossier
-- pour cela, saisir dnas le terminal -> sudo mv composer.phar /usr/local/bin/composer
+- pour cela, saisir dans le terminal -> sudo mv composer.phar /usr/local/bin/composer
 - le terminal demande votre mot de passe
 - saisir votre mot de passe
-- le fichier est déplacé et près à être utilisé
-- pour tester l'installation, siasir dans le terminal -> composer
+- le dossier est automatiquement crée, le fichier est déplacé et près à être utilisé
+- pour tester l'installation, saisir dans le terminal -> composer
 - la version et les commandes disponobles doivent apparaitre
 - l'installation a réussi
+
+##Rappel des commandes pour l'installation :
+nano ~/.bash_alias
+
+alias phpmamp='/Applications/MAMP/bin/php/php5.6.10/bin/php'
+
+
+curl -sS https://getcomposer.org/installer | phpmamp
+
+sudo mv composer.phar /usr/local/bin/composer
+
+mot de passe
+
+composer
 
 ##Comment utiliser 'Composer'
