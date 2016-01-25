@@ -29,9 +29,9 @@ MAMP est un environnement de développement / Serveur local sur MAC
 - le message suivant doit apparaitre :
 
     `All settings correct for using Composer`
-    `Downloading...`
+        `Downloading...`
     `Composer successfully installed to: /Users/nom_de_user/composer.phar`
-    `Use it: php composer.phar`
+        `Use it: php composer.phar`
 
 - pour utiliser 'Composer' globalement sur l'ensemble de votre ordinateur, il faut le déplacer dans le dossier /usr/local/bin/composer
 - créer et déplacer le fichier dans le dossier
