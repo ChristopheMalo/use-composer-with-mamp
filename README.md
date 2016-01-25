@@ -15,5 +15,4 @@ MAMP est un environnement de développement / Serveur local sur MAC
 - 'Composer' pourra être utilisé depuis n'importe quel projet (dossier) situé dans le dossier MAMP/htdocs
 
 ##Comment installer 'Composer'
-- Lancer le terminal (Console de saisie)
-- 
+- Lancer le terminal (Console de saisie) 
