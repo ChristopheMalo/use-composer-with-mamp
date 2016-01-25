@@ -47,13 +47,13 @@ MAMP est un environnement de développement / Serveur local sur MAC
 - l'installation a réussi
 
 ##Rappel des commandes pour l'installation :
+Listing des commandes d'installation de 'Composer'
     `nano ~/.bash_alias`
 
     `alias phpmamp='/Applications/MAMP/bin/php/php5.6.10/bin/php'`
 
 
-    
-    
+
     `curl -sS https://getcomposer.org/installer | phpmamp`
 
     `sudo mv composer.phar /usr/local/bin/composer`
