@@ -43,7 +43,7 @@ MAMP est un environnement de développement / Serveur local sur MAC
 - saisir votre mot de passe
 - le dossier est automatiquement crée, le fichier est déplacé et près à être utilisé
 - pour tester l'installation, saisir dans le terminal -> composer
-- la version et les commandes disponobles doivent apparaitre
+- la version et les commandes disponibles doivent apparaitre
 - l'installation a réussi
 
 ##Rappel des commandes pour l'installation :
