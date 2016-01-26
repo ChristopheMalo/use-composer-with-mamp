@@ -6,17 +6,17 @@
 
 **Composer** va installer les différentes bibliothèques liées au projet (les dépendances) et permettre leur mise à jour facilement
 
-MAMP est un environnement de développement / Serveur local sur MAC
+**MAMP** est un environnement de développement / Serveur local sur MAC
 
 ##Introduction
 - Environnement de développement : MAMP
 - Version PHP pour ce tutorial : 5.6.10
-- **Commposer** peut être installé globalement sur le MAC ou bien localement dnas le dossier du projet
+- **Composer** peut être installé globalement sur le MAC ou bien localement dnas le dossier du projet
 - J'ai choisi de l'installer globalement
 - **Composer** pourra ainsi être utilisé depuis n'importe quel projet (dossier) situé dans le dossier MAMP/htdocs
 - Quelques connaissances sur l'utilisation du terminal sont nécessaires
 
-##Comment installer 'Composer'
+##Comment installer Composer
 - Lancer le terminal (Console de saisie)
 - À l'aide de nano, à la racine de votre dossier user, créer un fichier .bash_alias
 - pour cela, saisir dans le terminal -> nano ~/.bash_alias (ou tout autre nom : .bash_[nom-quelconque] - attention : .bash_history est déjà utilisé
@@ -39,7 +39,7 @@ MAMP est un environnement de développement / Serveur local sur MAC
 
     `Use it: php composer.phar`
 
-- pour utiliser 'Composer' globalement sur l'ensemble de votre ordinateur, il faut le déplacer dans le dossier /usr/local/bin/composer
+- pour utiliser **Composer** globalement sur l'ensemble de votre ordinateur, il faut le déplacer dans le dossier /usr/local/bin/composer
 - créer et déplacer le fichier dans le dossier
 - pour cela, saisir dans le terminal -> sudo mv composer.phar /usr/local/bin/composer
 - le terminal demande votre mot de passe
@@ -50,7 +50,7 @@ MAMP est un environnement de développement / Serveur local sur MAC
 - l'installation a réussi
 
 ##Rappel des commandes pour l'installation :
-Listing des commandes d'installation de 'Composer'
+Listing des commandes d'installation de **Composer**
 
 `nano ~/.bash_alias`
 
@@ -64,8 +64,8 @@ Listing des commandes d'installation de 'Composer'
 
 `composer`
 
-##Comment utiliser 'Composer' - installer une dépendance
-Utilisation de l'exemple officiel du site composer.org
+##Comment utiliser Composer - installer une dépendance
+Utilisation de l'exemple officiel du site http://composer.org
 - dans le terminal se rendre dans le dossier htdocs
 - pour cela, saisir -> cd /Applications/MAMP/htdocs (Ici MAMP est insatallé dans le dossier Applications - Installation classique)
 - créer un dossier
@@ -75,11 +75,13 @@ Utilisation de l'exemple officiel du site composer.org
 - nano s'ouvre
 - dans le fichier composer.json, saisir les lignes basiques suivantes - les dépendances du projet, exemple ici monolog :
 
-    `{`
-        `"require": {`
-            `"monolog/monolog": "1.0.*"`
-        `}`
-    `}`
+```
+{
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
+```
 
 - d'autres renseignements peuvent être saisis, ceux ci-dessus sont le strict minimum (à savoir, nom et version du package)
 - lancer l'installation des dépendances
@@ -103,9 +105,9 @@ Utilisation de l'exemple officiel du site composer.org
 - à présent, gràce à ##composer##, il est facile de mettre à jour le projet et ses dépendances
 - pour cela, saisir -> composer update
 
-**Rappel :** si vous avez suivi mes instructions et installé 'composer' selon la méthode 'globale' vous ne devez pas utiliser la commande -> php composer.phar install (utilisation locale) mais bien la commande -> composer install 
+**Rappel :** si vous avez suivi mes instructions et installé **composer** selon la méthode **'globale'** vous ne devez pas utiliser la commande -> php composer.phar install (utilisation locale) mais bien la commande -> composer install 
 
 ##liens utiles
-- Le site de 'Composer' : https://getcomposer.org
+- Le site de **Composer** : https://getcomposer.org
 - L'utilisation basique de **Composer** : https://getcomposer.org/doc/01-basic-usage.md
 - Le site officiel hébergeant les bibliothèques compatibles ##Composer## : https://packagist.org
