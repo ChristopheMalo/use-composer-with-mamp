@@ -64,6 +64,7 @@ Listing des commandes d'installation de 'Composer'
 `composer`
 
 ##Comment utiliser 'Composer' - installer une dépendance
+Utilisation de l'exemple officiel du site composer.org
 - dans le terminal se rendre dans le dossier htdocs
 - pour cela, saisir -> cd /Applications/MAMP/htdocs
 - créer un dossier
