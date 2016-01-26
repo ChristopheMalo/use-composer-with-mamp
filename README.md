@@ -1,19 +1,19 @@
 #Utiliser 'Composer' sur un MAC avec MAMP
 
-##Composer## est un outil de gestion des dépendances - développé en PHP.
+**Composer** est un outil de gestion des dépendances - développé en PHP.
 
-##Composer## permet de déclarer les différentes bibliothèques liées à un projet (ex : symfony)
+**Composer** permet de déclarer les différentes bibliothèques liées à un projet (ex : symfony)
 
-##Composer## va installer les différentes bibliothèques liées au projet (les dépendances) et permettre leur mise à jour facilement
+**Composer** va installer les différentes bibliothèques liées au projet (les dépendances) et permettre leur mise à jour facilement
 
 MAMP est un environnement de développement / Serveur local sur MAC
 
 ##Introduction
 - Environnement de développement : MAMP
 - Version PHP pour ce tutorial : 5.6.10
-- ##Commposer## peut être installé globalement sur le MAC ou bien localement dnas le dossier du projet
+- **Commposer** peut être installé globalement sur le MAC ou bien localement dnas le dossier du projet
 - J'ai choisi de l'installer globalement
-- ##Composer## pourra ainsi être utilisé depuis n'importe quel projet (dossier) situé dans le dossier MAMP/htdocs
+- **Composer** pourra ainsi être utilisé depuis n'importe quel projet (dossier) situé dans le dossier MAMP/htdocs
 - Quelques connaissances sur l'utilisation du terminal sont nécessaires
 
 ##Comment installer 'Composer'
@@ -70,7 +70,7 @@ Utilisation de l'exemple officiel du site composer.org
 - pour cela, saisir -> cd /Applications/MAMP/htdocs (Ici MAMP est insatallé dans le dossier Applications - Installation classique)
 - créer un dossier
 - pour cela, saisir dans le terminal -> mkdir [nom_du_repertoire]
-- dans le dossier, créer un fichier ##composer.json## (avec nano ou tout autre editeur)
+- dans le dossier, créer un fichier **composer.json** (avec nano ou tout autre editeur)
 - avec nano, dans le terminal, saisir -> nano composer.json
 - nano s'ouvre
 - dans le fichier composer.json, saisir les lignes basiques suivantes - les dépendances du projet, exemple ici monolog :
@@ -107,5 +107,5 @@ Utilisation de l'exemple officiel du site composer.org
 
 ##liens utiles
 - Le site de 'Composer' : https://getcomposer.org
-- L'utilisation basique de ##Composer## : https://getcomposer.org/doc/01-basic-usage.md
+- L'utilisation basique de **Composer** : https://getcomposer.org/doc/01-basic-usage.md
 - Le site officiel hébergeant les bibliothèques compatibles ##Composer## : https://packagist.org
