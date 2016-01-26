@@ -87,19 +87,14 @@ Utilisation de l'exemple officiel du site http://composer.org
 - lancer l'installation des dépendances
 - pour cela, dans le dossier contenant le fichier composer.json, dasn le terminal, saisir -> composer install
 - le message suivant doit apparaitre dans le terminal :
-
-    `Loading composer repositories with package information`
-    
-    `Installing dependencies (including require-dev)`
-    
-    `- Installing monolog/monolog (1.0.2)`
-
-    `Loading from cache`
-
-    `Writing lock file`
-
-    `Generating autoload files`
-
+```
+    Loading composer repositories with package information
+    Installing dependencies (including require-dev)
+        - Installing monolog/monolog (1.0.2)
+    Loading from cache
+    Writing lock file
+    Generating autoload files
+```
 - dans le dossier racine, un dossier vendor est créé avec la bibliothèque (téléchargée automatiquement)
 - d'autres fichiers sont créés automatiquement (fichiers d'autoload, lock etc.)
 - à présent, gràce à ##composer##, il est facile de mettre à jour le projet et ses dépendances
