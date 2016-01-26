@@ -65,7 +65,7 @@ Listing des commandes d'installation de **Composer**
 `composer`
 
 ##Comment utiliser Composer - installer une dépendance
-Utilisation de l'exemple officiel du site http://composer.org
+Le site officiel http://composer.org utilise la bibliothèque monolog pour tester l'installation.
 - dans le terminal se rendre dans le dossier htdocs
 - pour cela, saisir -> cd /Applications/MAMP/htdocs (Ici MAMP est insatallé dans le dossier Applications - Installation classique)
 - créer un dossier
