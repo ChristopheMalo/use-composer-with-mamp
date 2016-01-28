@@ -18,8 +18,8 @@
 
 ##Comment installer Composer
 - Lancer le terminal (Console de saisie)
-- À l'aide de nano, à la racine de votre dossier user, créer un fichier .bash_alias
-- pour cela, saisir dans le terminal -> nano ~/.bash_alias (ou tout autre nom : .bash_[nom-quelconque] - attention : .bash_history est déjà utilisé
+- À l'aide de nano, à la racine de votre dossier user, créer un fichier .bash_profile ou l'ouvrir si il existe déjà
+- pour la création, saisir dans le terminal -> nano ~/.bash_profile
 - nano ouvre le fichier
 - créer alors dans le fichier ouvert un alias vers la version (mamp) de php - ici la 5.6.10 (attention : vérifier la version de php utilisée par votre version de MAMP)
 - pour cela saisir -> alias phpmamp='/Applications/MAMP/bin/php/php5.6.10/bin/php'
